@@ -1,0 +1,66 @@
+https://codesandbox.io/embed/github/gregnb/mui-datatables?codemirror=1
+
+  
+  
+  const options = {
+  filterType: 'checkbox',
+  selectableRows:false,
+};
+
+Register on doctor, tester
+
+     Goto url
+
+       Upload your document for verification 
+
+   After completed 
+
+      Show alert message,  your request is sent for approval. 
+
+
+Login authority
+     Show approval users in table
+     User name , phoneNumber , document , approve , reject buttons
+
+   Show all test requests,  filter by red , yellow ,green zone
+    Show pincodes, number of cases , rgy 
+
+    Click on pin codes,  show table filtering on that pin code cases
+     Name, phone number , address
+
+  Redux all data , filter with pin code map .
+    All zone update
+
+
+   Pin code
+      Array of data 
+
+
+Update threshold 
+
+
+Test Request
+     Request test , v
+
+   My tests 
+        Get all tests by user. 
+      Accordion 
+           Submitted on
+           Lab report
+            Consultation 
+
+Tester
+
+Pending tests
+         Username , pincode filter , assign to me button
+
+   Clicking assign to me call api and redirect update lab result/ I'd
+          Update form , with BP, heart beat etc.
+
+
+
+        My tests Get all tests by tester  filter by status
+             If the test is lab in progress , show update button, redirect to updateresukt/I'd
+
+
+Consultation

@@ -1,0 +1,40 @@
+.IN-PROGRESS{
+
+}
+
+.NEGATIVE{
+    background-color: #008800;
+    color: white;
+    font-weight: bolder;
+    padding-left: 16px;
+}
+
+.POSITIVE{
+    background-color: #C21F39;
+    color: white;
+    font-weight: bolder;
+    padding-left: 16px;
+
+}
+
+
+.NO_ISSUES{
+    background-color: #008800;
+    color: white;
+    font-weight: bolder;
+    padding-left: 16px;
+}
+.HOME_QUARANTINE{
+    background-color: #ee8816;
+    color: black;
+    font-weight: bolder;
+    padding-left: 16px;
+}
+
+.ADMIT{
+    background-color: #C21F39;
+    color: white;
+    font-weight: bolder;
+    padding-left: 16px;
+
+}
