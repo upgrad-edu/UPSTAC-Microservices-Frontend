@@ -4,7 +4,7 @@ import {environment} from "../../environment";
 export function parseApprovalItem(response) {
     const {contentType, fileName, id, url, user} = response
     const result = getAsUser(user);
-    let documentUrl = environment.baseUrl + url
+    let documentUrl = environment.DOWNLOAD_BASE_URL + url
     return {...result, contentType, fileName, documentId: id, documentUrl};
 }
 
